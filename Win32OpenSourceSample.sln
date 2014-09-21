@@ -113,6 +113,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libCurlEx", "libCurlEx\libC
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "curlcppEx", "curlcppEx\curlcppEx.vcxproj", "{5CCD72A0-47EB-448D-8149-78334CE87BE0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libTomEx1", "libTomEx1\libTomEx1.vcxproj", "{23EEA1F9-FA06-4A9C-8584-A6E260E762B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtomEx2", "libtomEx2\libtomEx2.vcxproj", "{902E7DC6-47B7-4777-81C4-DF6B092F31E1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtomEx3", "libtomEx3\libtomEx3.vcxproj", "{880D0E38-6B68-4207-A479-BAA027A310BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtomEx4", "libtomEx4\libtomEx4.vcxproj", "{A42C2FB1-3A9B-4028-BF29-BE0E4BCB4703}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -621,6 +629,42 @@ Global
 		{5CCD72A0-47EB-448D-8149-78334CE87BE0}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
 		{5CCD72A0-47EB-448D-8149-78334CE87BE0}.RelWithDebInfo|Win32.Build.0 = Release|Win32
 		{5CCD72A0-47EB-448D-8149-78334CE87BE0}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
+		{23EEA1F9-FA06-4A9C-8584-A6E260E762B2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{23EEA1F9-FA06-4A9C-8584-A6E260E762B2}.Debug|Win32.Build.0 = Debug|Win32
+		{23EEA1F9-FA06-4A9C-8584-A6E260E762B2}.Debug|x64.ActiveCfg = Debug|Win32
+		{23EEA1F9-FA06-4A9C-8584-A6E260E762B2}.Release|Win32.ActiveCfg = Release|Win32
+		{23EEA1F9-FA06-4A9C-8584-A6E260E762B2}.Release|Win32.Build.0 = Release|Win32
+		{23EEA1F9-FA06-4A9C-8584-A6E260E762B2}.Release|x64.ActiveCfg = Release|Win32
+		{23EEA1F9-FA06-4A9C-8584-A6E260E762B2}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{23EEA1F9-FA06-4A9C-8584-A6E260E762B2}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{23EEA1F9-FA06-4A9C-8584-A6E260E762B2}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
+		{902E7DC6-47B7-4777-81C4-DF6B092F31E1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{902E7DC6-47B7-4777-81C4-DF6B092F31E1}.Debug|Win32.Build.0 = Debug|Win32
+		{902E7DC6-47B7-4777-81C4-DF6B092F31E1}.Debug|x64.ActiveCfg = Debug|Win32
+		{902E7DC6-47B7-4777-81C4-DF6B092F31E1}.Release|Win32.ActiveCfg = Release|Win32
+		{902E7DC6-47B7-4777-81C4-DF6B092F31E1}.Release|Win32.Build.0 = Release|Win32
+		{902E7DC6-47B7-4777-81C4-DF6B092F31E1}.Release|x64.ActiveCfg = Release|Win32
+		{902E7DC6-47B7-4777-81C4-DF6B092F31E1}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{902E7DC6-47B7-4777-81C4-DF6B092F31E1}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{902E7DC6-47B7-4777-81C4-DF6B092F31E1}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
+		{880D0E38-6B68-4207-A479-BAA027A310BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{880D0E38-6B68-4207-A479-BAA027A310BF}.Debug|Win32.Build.0 = Debug|Win32
+		{880D0E38-6B68-4207-A479-BAA027A310BF}.Debug|x64.ActiveCfg = Debug|Win32
+		{880D0E38-6B68-4207-A479-BAA027A310BF}.Release|Win32.ActiveCfg = Release|Win32
+		{880D0E38-6B68-4207-A479-BAA027A310BF}.Release|Win32.Build.0 = Release|Win32
+		{880D0E38-6B68-4207-A479-BAA027A310BF}.Release|x64.ActiveCfg = Release|Win32
+		{880D0E38-6B68-4207-A479-BAA027A310BF}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{880D0E38-6B68-4207-A479-BAA027A310BF}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{880D0E38-6B68-4207-A479-BAA027A310BF}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
+		{A42C2FB1-3A9B-4028-BF29-BE0E4BCB4703}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A42C2FB1-3A9B-4028-BF29-BE0E4BCB4703}.Debug|Win32.Build.0 = Debug|Win32
+		{A42C2FB1-3A9B-4028-BF29-BE0E4BCB4703}.Debug|x64.ActiveCfg = Debug|Win32
+		{A42C2FB1-3A9B-4028-BF29-BE0E4BCB4703}.Release|Win32.ActiveCfg = Release|Win32
+		{A42C2FB1-3A9B-4028-BF29-BE0E4BCB4703}.Release|Win32.Build.0 = Release|Win32
+		{A42C2FB1-3A9B-4028-BF29-BE0E4BCB4703}.Release|x64.ActiveCfg = Release|Win32
+		{A42C2FB1-3A9B-4028-BF29-BE0E4BCB4703}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{A42C2FB1-3A9B-4028-BF29-BE0E4BCB4703}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{A42C2FB1-3A9B-4028-BF29-BE0E4BCB4703}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
