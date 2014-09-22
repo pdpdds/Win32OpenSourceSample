@@ -123,6 +123,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtomEx4", "libtomEx4\libt
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pocoEx", "pocoEx\pocoEx.vcxproj", "{A92A6839-5FF5-4586-B9F8-4DA6C2D63287}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libuvEx1", "libuvEx1\libuvEx1.vcxproj", "{F1D5F010-0012-4517-84B7-9320B2369042}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libuvEx2", "libuvEx2\libuvEx2.vcxproj", "{8640F340-B67F-46C3-8708-5DC863F051E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -676,6 +680,24 @@ Global
 		{A92A6839-5FF5-4586-B9F8-4DA6C2D63287}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
 		{A92A6839-5FF5-4586-B9F8-4DA6C2D63287}.RelWithDebInfo|Win32.Build.0 = Release|Win32
 		{A92A6839-5FF5-4586-B9F8-4DA6C2D63287}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
+		{F1D5F010-0012-4517-84B7-9320B2369042}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1D5F010-0012-4517-84B7-9320B2369042}.Debug|Win32.Build.0 = Debug|Win32
+		{F1D5F010-0012-4517-84B7-9320B2369042}.Debug|x64.ActiveCfg = Debug|Win32
+		{F1D5F010-0012-4517-84B7-9320B2369042}.Release|Win32.ActiveCfg = Release|Win32
+		{F1D5F010-0012-4517-84B7-9320B2369042}.Release|Win32.Build.0 = Release|Win32
+		{F1D5F010-0012-4517-84B7-9320B2369042}.Release|x64.ActiveCfg = Release|Win32
+		{F1D5F010-0012-4517-84B7-9320B2369042}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{F1D5F010-0012-4517-84B7-9320B2369042}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{F1D5F010-0012-4517-84B7-9320B2369042}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
+		{8640F340-B67F-46C3-8708-5DC863F051E8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8640F340-B67F-46C3-8708-5DC863F051E8}.Debug|Win32.Build.0 = Debug|Win32
+		{8640F340-B67F-46C3-8708-5DC863F051E8}.Debug|x64.ActiveCfg = Debug|Win32
+		{8640F340-B67F-46C3-8708-5DC863F051E8}.Release|Win32.ActiveCfg = Release|Win32
+		{8640F340-B67F-46C3-8708-5DC863F051E8}.Release|Win32.Build.0 = Release|Win32
+		{8640F340-B67F-46C3-8708-5DC863F051E8}.Release|x64.ActiveCfg = Release|Win32
+		{8640F340-B67F-46C3-8708-5DC863F051E8}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{8640F340-B67F-46C3-8708-5DC863F051E8}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{8640F340-B67F-46C3-8708-5DC863F051E8}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
