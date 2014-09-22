@@ -127,6 +127,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libuvEx1", "libuvEx1\libuvE
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libuvEx2", "libuvEx2\libuvEx2.vcxproj", "{8640F340-B67F-46C3-8708-5DC863F051E8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zeromqEx", "zeromqEx\zeromqEx.vcxproj", "{8B0978DE-98D3-4F5E-8548-24C90641A376}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtorrentMake", "libTorrentEx\libTorrentEx.vcxproj", "{D85040FD-EB69-4395-BD5E-B09790429744}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libTorrentDump", "libTorrentEx2\DumpTorrent.vcxproj", "{A31A42C7-D93D-4586-B897-A1034D632544}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libTorrentClient", "libTorrentEx3\ClientTest.vcxproj", "{14F15E82-8F10-44DD-9534-BE89B6C11DCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -698,6 +706,42 @@ Global
 		{8640F340-B67F-46C3-8708-5DC863F051E8}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
 		{8640F340-B67F-46C3-8708-5DC863F051E8}.RelWithDebInfo|Win32.Build.0 = Release|Win32
 		{8640F340-B67F-46C3-8708-5DC863F051E8}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
+		{8B0978DE-98D3-4F5E-8548-24C90641A376}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8B0978DE-98D3-4F5E-8548-24C90641A376}.Debug|Win32.Build.0 = Debug|Win32
+		{8B0978DE-98D3-4F5E-8548-24C90641A376}.Debug|x64.ActiveCfg = Debug|Win32
+		{8B0978DE-98D3-4F5E-8548-24C90641A376}.Release|Win32.ActiveCfg = Release|Win32
+		{8B0978DE-98D3-4F5E-8548-24C90641A376}.Release|Win32.Build.0 = Release|Win32
+		{8B0978DE-98D3-4F5E-8548-24C90641A376}.Release|x64.ActiveCfg = Release|Win32
+		{8B0978DE-98D3-4F5E-8548-24C90641A376}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{8B0978DE-98D3-4F5E-8548-24C90641A376}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{8B0978DE-98D3-4F5E-8548-24C90641A376}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
+		{D85040FD-EB69-4395-BD5E-B09790429744}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D85040FD-EB69-4395-BD5E-B09790429744}.Debug|Win32.Build.0 = Debug|Win32
+		{D85040FD-EB69-4395-BD5E-B09790429744}.Debug|x64.ActiveCfg = Debug|Win32
+		{D85040FD-EB69-4395-BD5E-B09790429744}.Release|Win32.ActiveCfg = Release|Win32
+		{D85040FD-EB69-4395-BD5E-B09790429744}.Release|Win32.Build.0 = Release|Win32
+		{D85040FD-EB69-4395-BD5E-B09790429744}.Release|x64.ActiveCfg = Release|Win32
+		{D85040FD-EB69-4395-BD5E-B09790429744}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{D85040FD-EB69-4395-BD5E-B09790429744}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{D85040FD-EB69-4395-BD5E-B09790429744}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
+		{A31A42C7-D93D-4586-B897-A1034D632544}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A31A42C7-D93D-4586-B897-A1034D632544}.Debug|Win32.Build.0 = Debug|Win32
+		{A31A42C7-D93D-4586-B897-A1034D632544}.Debug|x64.ActiveCfg = Debug|Win32
+		{A31A42C7-D93D-4586-B897-A1034D632544}.Release|Win32.ActiveCfg = Release|Win32
+		{A31A42C7-D93D-4586-B897-A1034D632544}.Release|Win32.Build.0 = Release|Win32
+		{A31A42C7-D93D-4586-B897-A1034D632544}.Release|x64.ActiveCfg = Release|Win32
+		{A31A42C7-D93D-4586-B897-A1034D632544}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{A31A42C7-D93D-4586-B897-A1034D632544}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{A31A42C7-D93D-4586-B897-A1034D632544}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
+		{14F15E82-8F10-44DD-9534-BE89B6C11DCC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{14F15E82-8F10-44DD-9534-BE89B6C11DCC}.Debug|Win32.Build.0 = Debug|Win32
+		{14F15E82-8F10-44DD-9534-BE89B6C11DCC}.Debug|x64.ActiveCfg = Debug|Win32
+		{14F15E82-8F10-44DD-9534-BE89B6C11DCC}.Release|Win32.ActiveCfg = Release|Win32
+		{14F15E82-8F10-44DD-9534-BE89B6C11DCC}.Release|Win32.Build.0 = Release|Win32
+		{14F15E82-8F10-44DD-9534-BE89B6C11DCC}.Release|x64.ActiveCfg = Release|Win32
+		{14F15E82-8F10-44DD-9534-BE89B6C11DCC}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{14F15E82-8F10-44DD-9534-BE89B6C11DCC}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{14F15E82-8F10-44DD-9534-BE89B6C11DCC}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
