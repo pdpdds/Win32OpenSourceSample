@@ -135,6 +135,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libTorrentDump", "libTorren
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libTorrentClient", "libTorrentEx3\ClientTest.vcxproj", "{14F15E82-8F10-44DD-9534-BE89B6C11DCC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zeromqEx2", "zeromqEx2\zeromqEx2.vcxproj", "{A592E6F6-993C-4216-9C58-46459738390B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -742,6 +744,15 @@ Global
 		{14F15E82-8F10-44DD-9534-BE89B6C11DCC}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
 		{14F15E82-8F10-44DD-9534-BE89B6C11DCC}.RelWithDebInfo|Win32.Build.0 = Release|Win32
 		{14F15E82-8F10-44DD-9534-BE89B6C11DCC}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
+		{A592E6F6-993C-4216-9C58-46459738390B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A592E6F6-993C-4216-9C58-46459738390B}.Debug|Win32.Build.0 = Debug|Win32
+		{A592E6F6-993C-4216-9C58-46459738390B}.Debug|x64.ActiveCfg = Debug|Win32
+		{A592E6F6-993C-4216-9C58-46459738390B}.Release|Win32.ActiveCfg = Release|Win32
+		{A592E6F6-993C-4216-9C58-46459738390B}.Release|Win32.Build.0 = Release|Win32
+		{A592E6F6-993C-4216-9C58-46459738390B}.Release|x64.ActiveCfg = Release|Win32
+		{A592E6F6-993C-4216-9C58-46459738390B}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{A592E6F6-993C-4216-9C58-46459738390B}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{A592E6F6-993C-4216-9C58-46459738390B}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
