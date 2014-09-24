@@ -51,6 +51,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	
 	thread2.join();
 	thread3.join();
+	thread4.join();
 
 	lfds611_queue_delete(m_pQueue, NULL, NULL);
 

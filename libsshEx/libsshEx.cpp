@@ -11,6 +11,8 @@
 #include <libssh/libssh.h>
 #include <libssh/sftp.h>
 
+int CreateFolder(ssh_session session, sftp_session sftp, char* szFolderName);
+
 #pragma comment(lib, "ssh.lib")
 
 #define S_IRWXU 0000700 
@@ -23,7 +25,7 @@ int main()
 	sftp_session sftp;
 
 	int verbosity = SSH_LOG_PROTOCOL;
-	int port = 990;
+	int port = 9900;
 	my_ssh_session = ssh_new();
 	if (my_ssh_session == NULL)
 		exit(-1);
@@ -48,7 +50,7 @@ int main()
 		return rc;
 	}
 
-
+	CreateFolder(my_ssh_session, sftp, "SampleFolder");
 		
 	sftp_free(sftp);
 	ssh_free(my_ssh_session);
