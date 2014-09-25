@@ -147,6 +147,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "balorEx2", "balorEx2\balorI
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "balorEx1", "balorEx1\balorEx1.vcxproj", "{A4215B1C-63A8-4B36-A106-26AA76D352D0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fastdbEx", "fastdbEx\fastdbEx.vcxproj", "{00F2C6F6-C001-4B7F-9B53-EEFA796022E6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "guichanEx", "guichanEx\guichanEx.vcxproj", "{7C81C30B-0442-4C66-AE99-D76A2578FACF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -808,6 +812,24 @@ Global
 		{A4215B1C-63A8-4B36-A106-26AA76D352D0}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
 		{A4215B1C-63A8-4B36-A106-26AA76D352D0}.RelWithDebInfo|Win32.Build.0 = Release|Win32
 		{A4215B1C-63A8-4B36-A106-26AA76D352D0}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
+		{00F2C6F6-C001-4B7F-9B53-EEFA796022E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{00F2C6F6-C001-4B7F-9B53-EEFA796022E6}.Debug|Win32.Build.0 = Debug|Win32
+		{00F2C6F6-C001-4B7F-9B53-EEFA796022E6}.Debug|x64.ActiveCfg = Debug|Win32
+		{00F2C6F6-C001-4B7F-9B53-EEFA796022E6}.Release|Win32.ActiveCfg = Release|Win32
+		{00F2C6F6-C001-4B7F-9B53-EEFA796022E6}.Release|Win32.Build.0 = Release|Win32
+		{00F2C6F6-C001-4B7F-9B53-EEFA796022E6}.Release|x64.ActiveCfg = Release|Win32
+		{00F2C6F6-C001-4B7F-9B53-EEFA796022E6}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{00F2C6F6-C001-4B7F-9B53-EEFA796022E6}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{00F2C6F6-C001-4B7F-9B53-EEFA796022E6}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
+		{7C81C30B-0442-4C66-AE99-D76A2578FACF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7C81C30B-0442-4C66-AE99-D76A2578FACF}.Debug|Win32.Build.0 = Debug|Win32
+		{7C81C30B-0442-4C66-AE99-D76A2578FACF}.Debug|x64.ActiveCfg = Debug|Win32
+		{7C81C30B-0442-4C66-AE99-D76A2578FACF}.Release|Win32.ActiveCfg = Release|Win32
+		{7C81C30B-0442-4C66-AE99-D76A2578FACF}.Release|Win32.Build.0 = Release|Win32
+		{7C81C30B-0442-4C66-AE99-D76A2578FACF}.Release|x64.ActiveCfg = Release|Win32
+		{7C81C30B-0442-4C66-AE99-D76A2578FACF}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{7C81C30B-0442-4C66-AE99-D76A2578FACF}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{7C81C30B-0442-4C66-AE99-D76A2578FACF}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
