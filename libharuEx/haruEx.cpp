@@ -87,7 +87,7 @@ int main(int argc, char **argv)
 	HPDF_Page_SetLineWidth(page, 1);
 //사각형을 그린다.
 	HPDF_Page_Rectangle(page, 50, 50, width - 100, height - 110);
-	//HPDF_Page_Stroke(page);
+	HPDF_Page_Stroke(page);
 
 	/* Print the title of the page (with positioning center). */
 	def_font = HPDF_GetFont(pdf, "Helvetica", NULL);

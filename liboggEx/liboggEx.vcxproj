@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A42C2FB1-3A9B-4028-BF29-BE0E4BCB4703}</ProjectGuid>
+    <ProjectGuid>{D801FD98-C6B2-420E-AE28-9D5C95090C86}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>libtomEx4</RootNamespace>
+    <RootNamespace>liboggEx</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -47,17 +47,17 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>../prebuilt/libtom/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./;../prebuilt/libtheora/include;../prebuilt/libvorbis/include;../prebuilt/libogg/include;../prebuilt/SDL1.2/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>../prebuilt/libtom/lib/x86/debug</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../prebuilt/libtheora/lib/x86/debug;../prebuilt/libvorbis/lib/x86/debug;../prebuilt/libogg/lib/x86/debug;../prebuilt/sdl1.2/lib/x86/debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -81,15 +81,23 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="imp.hpp" />
+    <ClInclude Include="oggplayer.h" />
+    <ClInclude Include="SDL_audiocvt.hpp" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="libtomEx4.cpp" />
+    <ClCompile Include="liboggEx.cpp" />
+    <ClCompile Include="oggplayer.cpp" />
+    <ClCompile Include="open_close.cpp" />
+    <ClCompile Include="play.cpp" />
+    <ClCompile Include="SDL_audiocvt.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="util.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

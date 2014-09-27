@@ -1,0 +1,1 @@
+This library includes some modified files from SDL (http://www.libsdl.org/).
