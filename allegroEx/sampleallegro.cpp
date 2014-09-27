@@ -79,3 +79,24 @@ int main()
 	return 0;
 }
 
+char szTran[8096];
+int nOut = 8096;
+USES_CONVERSION;
+wchar_t *wc = A2W(iter->second.c_str()); // ANSI to UCS-2
+WideCharToMultiByte(CP_UTF8, 0, wc, -1, szTran, nOut, 0, 0); // UCS-2 to UTF-8
+
+int StartPos = 0;
+int Len = 0;
+float height = 10;
+char szTemp[8096] = { 0, };
+memcpy(szTemp, szTran, 8096);
+do
+{
+	int EndPos = GetNextLinePos(font_ttf, &szTemp[StartPos]);
+
+	szTemp[StartPos + EndPos] = 0;
+	al_draw_text(font_ttf, al_map_rgb(255, 255, 255), 10.0f, height, ALLEGRO_ALIGN_LEFT, &szTemp[StartPos]);
+	szTemp[StartPos + EndPos] = szTran[StartPos + EndPos];
+	StartPos += EndPos;
+	height += 20;
+} while (StartPos < strlen(szTran));
