@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7C81C30B-0442-4C66-AE99-D76A2578FACF}</ProjectGuid>
+    <ProjectGuid>{CEEAFDF7-6C17-4BF5-8D6D-B441D1217A76}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>guichanEx</RootNamespace>
+    <RootNamespace>IrrlichtBulletEx</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -47,18 +47,17 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>../prebuilt/guichan/include;../prebuilt\SDL2\SDL2_ttf;../prebuilt\SDL2\include</AdditionalIncludeDirectories>
-      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>../prebuilt/irrlicht/include;../prebuilt/bullet/include;../prebuilt/bullet/include/BulletCollision/Gimpact</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>../prebuilt/guichan/lib/x86/debug;../prebuilt/SDL2/lib/x86/RELEASE</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../prebuilt\bullet\lib;../prebuilt/Irrlicht/lib/x86</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -82,15 +81,27 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CBulletAnimatorManager.h" />
+    <ClInclude Include="CBulletObjectAnimator.h" />
+    <ClInclude Include="CBulletPhysicsUtils.h" />
+    <ClInclude Include="CBulletWorldAnimator.h" />
+    <ClInclude Include="CFollowAnimator.h" />
+    <ClInclude Include="CThirdPersonFollowAnimator.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="irrBulletBox.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="guichanEx.cpp" />
+    <ClCompile Include="CBulletAnimatorManager.cpp" />
+    <ClCompile Include="CBulletObjectAnimator.cpp" />
+    <ClCompile Include="CBulletPhysicsUtils.cpp" />
+    <ClCompile Include="CBulletWorldAnimator.cpp" />
+    <ClCompile Include="IrrlichtBulletEx.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="irrBulletBox.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

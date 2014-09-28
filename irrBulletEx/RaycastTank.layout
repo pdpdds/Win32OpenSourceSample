@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Win32 GCC Release" />
+	<File name="..\RaycastTank\raycasttankexample.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="2604" topLine="69" />
+	</File>
+	<File name="..\RaycastTank\raycasttankexample.h" open="1" top="0" tabpos="2">
+		<Cursor position="823" topLine="23" />
+	</File>
+</CodeBlocks_layout_file>

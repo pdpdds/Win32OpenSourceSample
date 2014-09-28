@@ -78,7 +78,7 @@ int main()
 
 	return 0;
 }
-
+/*
 char szTran[8096];
 int nOut = 8096;
 USES_CONVERSION;
@@ -100,3 +100,4 @@ do
 	StartPos += EndPos;
 	height += 20;
 } while (StartPos < strlen(szTran));
+*/
