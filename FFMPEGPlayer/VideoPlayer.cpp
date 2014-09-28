@@ -40,11 +40,11 @@ int64_t OgreResource_Seek(void *user_data, int64_t offset, int whence)
     if(whence == AVSEEK_SIZE)
         return stream->size();
     if(whence == SEEK_SET)
-        stream->seek(offset);
+        stream->seek((size_t)offset);
     else if(whence == SEEK_CUR)
-        stream->seek(stream->tell()+offset);
+		stream->seek((size_t)(stream->tell() + offset));
     else if(whence == SEEK_END)
-        stream->seek(stream->size()+offset);
+		stream->seek((size_t)(stream->size() + offset));
     else
         return -1;
 
@@ -167,7 +167,7 @@ int synchronize_audio(VideoState *is, short *samples,
 
   if(is->av_sync_type != AV_SYNC_AUDIO_MASTER) {
     double diff, avg_diff;
-    int wanted_size, min_size, max_size, nb_samples;
+    int wanted_size, min_size, max_size;
 
     ref_clock = get_master_clock(is);
     diff = get_audio_clock(is) - ref_clock;
@@ -531,9 +531,9 @@ int video_thread(void *arg) {
         packet);
     if(packet->dts == AV_NOPTS_VALUE
        && pFrame->opaque && *(uint64_t*)pFrame->opaque != AV_NOPTS_VALUE) {
-      pts = *(uint64_t *)pFrame->opaque;
+      pts = (double)(*(uint64_t *)pFrame->opaque);
     } else if(packet->dts != AV_NOPTS_VALUE) {
-      pts = packet->dts;
+		pts = (double)packet->dts;
     } else {
       pts = 0;
     }
@@ -566,7 +566,7 @@ int stream_component_open(VideoState *is, int stream_index, AVFormatContext *pFo
   AVCodec *codec;
   SDL_AudioSpec wanted_spec, spec;
 
-  if(stream_index < 0 || stream_index >= pFormatCtx->nb_streams) {
+  if(stream_index < 0 || stream_index >= (int)pFormatCtx->nb_streams) {
     return -1;
   }
 
@@ -620,7 +620,7 @@ int stream_component_open(VideoState *is, int stream_index, AVFormatContext *pFo
     is->frame_last_delay = 40e-3;
     is->video_current_pts_time = av_gettime();
 
-    packet_queue_init(&is->videoq);
+   // packet_queue_init(&is->videoq);
     is->video_thread = boost::thread(video_thread, is);
     codecCtx->get_buffer = our_get_buffer;
     codecCtx->release_buffer = our_release_buffer;
@@ -630,7 +630,7 @@ int stream_component_open(VideoState *is, int stream_index, AVFormatContext *pFo
     break;
   }
 
-
+  return 0;
 }
 
 int decode_interrupt_cb(void) {
@@ -680,7 +680,7 @@ int decode_thread(void *arg) {
   // Dump information about file onto standard error
   av_dump_format(pFormatCtx, 0, is->resourceName.c_str(), 0);
 
-  for(i=0; i<pFormatCtx->nb_streams; i++) {
+  for(i=0; i < (int)pFormatCtx->nb_streams; i++) {
     if(pFormatCtx->streams[i]->codec->codec_type==AVMEDIA_TYPE_VIDEO &&
        video_index < 0) {
       video_index=i;
@@ -772,7 +772,7 @@ void VideoPlayer::playVideo (const std::string &resourceName)
   if (mState)
     close();
 
-  mState = new VideoState;
+  mState = new VideoState();
 
   // Register all formats and codecs
   av_register_all();

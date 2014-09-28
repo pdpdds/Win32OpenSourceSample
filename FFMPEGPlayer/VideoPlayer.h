@@ -137,7 +137,18 @@ struct VideoState {
   int refresh;
 
   Ogre::DataStreamPtr stream;
+  
+  void* VideoState::operator new  (std::size_t count)
+  {
+	  return _aligned_malloc(count, 16);
+  }
+
+  void VideoState::operator delete  (void* ptr)
+  {
+	  _aligned_free(ptr);
+  }
 };
+
 enum {
   AV_SYNC_AUDIO_MASTER,
   AV_SYNC_VIDEO_MASTER,

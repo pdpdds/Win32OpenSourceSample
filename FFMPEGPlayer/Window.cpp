@@ -14,7 +14,7 @@ Window::Window() :
 {
 	// get a list of supported fullscreen resolutions
 	const StringVector& videoModes = Root::getSingleton().getRenderSystem()->getConfigOptions()["Video Mode"].possibleValues;
-	for (int i=0; i < videoModes.size(); i++)
+	for (int i=0; i < (int)videoModes.size(); i++)
 	{
 		String mode = videoModes[i];
 		StringUtil::trim(mode);
