@@ -177,6 +177,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xlsLibEx", "xlsLibEx\xlsLib
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libxlsEx", "libxlsEx\libxlsEx.vcxproj", "{C6A038E5-351D-4C04-B525-A811C08EBA39}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDLWindowRender", "SDLWindowRender\SDLWindowRender.vcxproj", "{C909080C-DF3E-4852-B504-6795039F1384}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -973,6 +975,15 @@ Global
 		{C6A038E5-351D-4C04-B525-A811C08EBA39}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
 		{C6A038E5-351D-4C04-B525-A811C08EBA39}.RelWithDebInfo|Win32.Build.0 = Release|Win32
 		{C6A038E5-351D-4C04-B525-A811C08EBA39}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
+		{C909080C-DF3E-4852-B504-6795039F1384}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C909080C-DF3E-4852-B504-6795039F1384}.Debug|Win32.Build.0 = Debug|Win32
+		{C909080C-DF3E-4852-B504-6795039F1384}.Debug|x64.ActiveCfg = Debug|Win32
+		{C909080C-DF3E-4852-B504-6795039F1384}.Release|Win32.ActiveCfg = Release|Win32
+		{C909080C-DF3E-4852-B504-6795039F1384}.Release|Win32.Build.0 = Release|Win32
+		{C909080C-DF3E-4852-B504-6795039F1384}.Release|x64.ActiveCfg = Release|Win32
+		{C909080C-DF3E-4852-B504-6795039F1384}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{C909080C-DF3E-4852-B504-6795039F1384}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{C909080C-DF3E-4852-B504-6795039F1384}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
