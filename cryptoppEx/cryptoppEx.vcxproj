@@ -52,12 +52,12 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>CRYPTOPP_IMPORTS;WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>../prebuilt/cryptopp/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../prebuilt/cryptopp/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>../prebuilt/cryptopp/lib/x86/DLL_Output/Debug</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../../prebuilt/cryptopp/lib/x86/DLL_Output/Debug</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

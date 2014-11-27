@@ -1,18 +1,18 @@
 //{{NO_DEPENDENCIES}}
 // Microsoft Visual C++ generated include file.
-// Used by SDLWindowRender.rc
+// Used by myguiex.rc
 //
 
 #define IDS_APP_TITLE			103
 
 #define IDR_MAINFRAME			128
-#define IDD_SDLWINDOWRENDER_DIALOG	102
+#define IDD_MYGUIEX_DIALOG	102
 #define IDD_ABOUTBOX			103
 #define IDM_ABOUT				104
 #define IDM_EXIT				105
-#define IDI_SDLWINDOWRENDER			107
+#define IDI_MYGUIEX			107
 #define IDI_SMALL				108
-#define IDC_SDLWINDOWRENDER			109
+#define IDC_MYGUIEX			109
 #define IDC_MYICON				2
 #ifndef IDC_STATIC
 #define IDC_STATIC				-1

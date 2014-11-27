@@ -52,13 +52,13 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;HAVE_GETTIMEOFDAY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>../prebuilt/ogre3d/include;../prebuilt/Ogre3d\dependencies/include;../prebuilt/ffmpeg\include;../prebuilt/SDL2</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../prebuilt/ogre3d/include;../../prebuilt/Ogre3d\dependencies/include;../../prebuilt/ffmpeg\include;../../prebuilt/SDL2</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4251;4193;4275;4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>../prebuilt/sdl2/lib/x86/debug;../prebuilt/ffmpeg/lib;../prebuilt/Ogre3d\lib\Debug;../prebuilt/Ogre3d\dependencies\lib\debug</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../../prebuilt/sdl2/lib/x86/debug;../../prebuilt/ffmpeg/lib;../../prebuilt/Ogre3d\lib\Debug;../../prebuilt/Ogre3d\dependencies\lib\debug</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

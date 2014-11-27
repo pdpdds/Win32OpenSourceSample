@@ -52,12 +52,12 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>../prebuilt/allegro/include;../prebuilt/allegro/include/allegro5/addons/font;../prebuilt/allegro/include/allegro5/addons/ttf;../prebuilt/allegro/include/allegro5/addons/native_dialog;../prebuilt/allegro/include/allegro5/addons/image</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../prebuilt/allegro/include;../../prebuilt/allegro/include/allegro5/addons/font;../../prebuilt/allegro/include/allegro5/addons/ttf;../../prebuilt/allegro/include/allegro5/addons/native_dialog;../../prebuilt/allegro/include/allegro5/addons/image</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>../prebuilt/allegro/lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../../prebuilt/allegro/lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

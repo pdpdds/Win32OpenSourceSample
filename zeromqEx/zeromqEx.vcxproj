@@ -52,14 +52,14 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_MSC_VER=1500;WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>../prebuilt\zeromq\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../prebuilt\zeromq\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <Version>
       </Version>
-      <AdditionalLibraryDirectories>../prebuilt\zeromq\lib\x86\debug</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../../prebuilt\zeromq\lib\x86\debug</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

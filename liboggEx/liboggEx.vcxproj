@@ -52,12 +52,12 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>./;../prebuilt/libtheora/include;../prebuilt/libvorbis/include;../prebuilt/libogg/include;../prebuilt/SDL1.2/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./;../../prebuilt/libtheora/include;../../prebuilt/libvorbis/include;../../prebuilt/libogg/include;../../prebuilt/SDL1.2/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>../prebuilt/libtheora/lib/x86/debug;../prebuilt/libvorbis/lib/x86/debug;../prebuilt/libogg/lib/x86/debug;../prebuilt/sdl1.2/lib/x86/debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../../prebuilt/libtheora/lib/x86/debug;../../prebuilt/libvorbis/lib/x86/debug;../../prebuilt/libogg/lib/x86/debug;../../prebuilt/sdl1.2/lib/x86/debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

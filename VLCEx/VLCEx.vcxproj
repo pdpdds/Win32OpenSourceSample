@@ -52,12 +52,12 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>../prebuilt/libVLC/include;../prebuilt/SDL2/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../prebuilt/libVLC/include;../../prebuilt/SDL2/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>../prebuilt/SDL2/LIB/x86/debug;../prebuilt/libVLC/lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../../prebuilt/SDL2/LIB/x86/debug;../../prebuilt/libVLC/lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

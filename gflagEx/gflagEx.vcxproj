@@ -52,12 +52,12 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>../prebuilt/gflag\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../prebuilt/gflag\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>../prebuilt/gflag\lib\x86\Debug</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../../prebuilt/gflag\lib\x86\Debug</AdditionalLibraryDirectories>
       <Version>
       </Version>
     </Link>

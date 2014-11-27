@@ -52,13 +52,13 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>../prebuilt/guichan/include;../prebuilt\SDL2\SDL2_ttf;../prebuilt\SDL2\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../prebuilt/guichan/include;../../prebuilt\SDL2\SDL2_ttf;../../prebuilt\SDL2\include</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4819</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>../prebuilt/guichan/lib/x86/debug;../prebuilt/SDL2/lib/x86/RELEASE</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../../prebuilt/guichan/lib/x86/debug;../../prebuilt/SDL2/lib/x86/RELEASE</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

@@ -27,26 +27,50 @@
     <ClInclude Include="Resource.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="SDLWindowRender.h">
+    <ClInclude Include="myguiex.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="aa.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="Console.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoKeeper.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseManager.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PointerManager.h">
+      <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="SDLWindowRender.cpp">
+    <ClCompile Include="myguiex.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="aa.cpp">
+    <ClCompile Include="Console.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoKeeper.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerManager.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="SDLWindowRender.rc">
+    <ResourceCompile Include="myguiex.rc">
       <Filter>리소스 파일</Filter>
     </ResourceCompile>
   </ItemGroup>
@@ -54,7 +78,7 @@
     <Image Include="small.ico">
       <Filter>리소스 파일</Filter>
     </Image>
-    <Image Include="SDLWindowRender.ico">
+    <Image Include="myguiex.ico">
       <Filter>리소스 파일</Filter>
     </Image>
   </ItemGroup>

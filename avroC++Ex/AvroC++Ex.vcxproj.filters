@@ -29,7 +29,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="SampleAvro.cpp">
+    <ClCompile Include="AvroC++Ex.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

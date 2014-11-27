@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C909080C-DF3E-4852-B504-6795039F1384}</ProjectGuid>
+    <ProjectGuid>{45CA1C4B-80AE-4848-BB6F-F8846E3E0720}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>SDLWindowRender</RootNamespace>
+    <RootNamespace>myguiex</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -52,13 +52,13 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>../prebuilt\SDL2\include;../prebuilt/ffmpeg/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../prebuilt/mygui/include;../../prebuilt/mygui/common;../../prebuilt/ogre3d/include;../../prebuilt/mygui/Platforms/Ogre/OgrePlatform/include;../../prebuilt\MyGUI\common\Input\Win32</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\prebuilt\SDL2\LIB\x86\Debug;../prebuilt/ffmpeg/lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>avcodec.lib;swscale.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;swresample.lib;postproc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../prebuilt\MyGUI\lib\Debug;../../prebuilt\ogre3d\lib\Debug</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -82,25 +82,33 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="aa.h" />
+    <ClInclude Include="BaseManager.h" />
+    <ClInclude Include="Console.h" />
+    <ClInclude Include="DemoKeeper.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="myguiex.h" />
+    <ClInclude Include="PointerManager.h" />
     <ClInclude Include="Resource.h" />
-    <ClInclude Include="SDLWindowRender.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="aa.cpp" />
-    <ClCompile Include="SDLWindowRender.cpp" />
+    <ClCompile Include="BaseManager.cpp" />
+    <ClCompile Include="Console.cpp" />
+    <ClCompile Include="DemoKeeper.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="myguiex.cpp" />
+    <ClCompile Include="PointerManager.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="SDLWindowRender.rc" />
+    <ResourceCompile Include="myguiex.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="SDLWindowRender.ico" />
+    <Image Include="myguiex.ico" />
     <Image Include="small.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

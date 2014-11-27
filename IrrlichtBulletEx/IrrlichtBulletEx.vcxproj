@@ -52,12 +52,12 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>../prebuilt/irrlicht/include;../prebuilt/bullet/include;../prebuilt/bullet/include/BulletCollision/Gimpact</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../prebuilt/irrlicht/include;../../prebuilt/bullet/include;../../prebuilt/bullet/include/BulletCollision/Gimpact</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>../prebuilt\bullet\lib;../prebuilt/Irrlicht/lib/x86</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../../prebuilt\bullet\lib;../../prebuilt/Irrlicht/lib/x86</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

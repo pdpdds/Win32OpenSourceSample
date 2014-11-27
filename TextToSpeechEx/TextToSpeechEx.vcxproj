@@ -52,7 +52,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>D:\Program Files (x86)\Microsoft Speech SDK 5.1\Include;../prebuilt/stlsoft-1.9.118/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../prebuilt/Microsoft Speech SDK 5.1\Include;../../prebuilt/stlsoft-1.9.118/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
