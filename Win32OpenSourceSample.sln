@@ -179,6 +179,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myguiex", "myguiex\myguiex.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libTorrentDownloader", "libTorrentEx3\torrentDownloader.vcxproj", "{5055F133-EDEB-4793-A760-319D0B2A0D60}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "msgpackRPC-Ex1", "msgpackRPC-Ex1\msgpackRPC-Ex1.vcxproj", "{0044095E-478B-41A6-9A17-64104283F4FE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "msgpackRPC-Ex2", "msgpackRPC-Ex2\msgpackRPC-Ex2.vcxproj", "{6AA6074E-CF77-4254-986B-FBF1435517FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -984,6 +988,24 @@ Global
 		{5055F133-EDEB-4793-A760-319D0B2A0D60}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
 		{5055F133-EDEB-4793-A760-319D0B2A0D60}.RelWithDebInfo|Win32.Build.0 = Release|Win32
 		{5055F133-EDEB-4793-A760-319D0B2A0D60}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
+		{0044095E-478B-41A6-9A17-64104283F4FE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0044095E-478B-41A6-9A17-64104283F4FE}.Debug|Win32.Build.0 = Debug|Win32
+		{0044095E-478B-41A6-9A17-64104283F4FE}.Debug|x64.ActiveCfg = Debug|Win32
+		{0044095E-478B-41A6-9A17-64104283F4FE}.Release|Win32.ActiveCfg = Release|Win32
+		{0044095E-478B-41A6-9A17-64104283F4FE}.Release|Win32.Build.0 = Release|Win32
+		{0044095E-478B-41A6-9A17-64104283F4FE}.Release|x64.ActiveCfg = Release|Win32
+		{0044095E-478B-41A6-9A17-64104283F4FE}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{0044095E-478B-41A6-9A17-64104283F4FE}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{0044095E-478B-41A6-9A17-64104283F4FE}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
+		{6AA6074E-CF77-4254-986B-FBF1435517FB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6AA6074E-CF77-4254-986B-FBF1435517FB}.Debug|Win32.Build.0 = Debug|Win32
+		{6AA6074E-CF77-4254-986B-FBF1435517FB}.Debug|x64.ActiveCfg = Debug|Win32
+		{6AA6074E-CF77-4254-986B-FBF1435517FB}.Release|Win32.ActiveCfg = Release|Win32
+		{6AA6074E-CF77-4254-986B-FBF1435517FB}.Release|Win32.Build.0 = Release|Win32
+		{6AA6074E-CF77-4254-986B-FBF1435517FB}.Release|x64.ActiveCfg = Release|Win32
+		{6AA6074E-CF77-4254-986B-FBF1435517FB}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{6AA6074E-CF77-4254-986B-FBF1435517FB}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{6AA6074E-CF77-4254-986B-FBF1435517FB}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
