@@ -6,7 +6,7 @@
 
 #include "stdafx.h"
 #include "InputManager.h"
-#include "../InputConverter.h"
+//#include "../InputConverter.h"
 #include <Shellapi.h>
 
 #ifdef INPUT_KEY_NAME
